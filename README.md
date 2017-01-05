@@ -317,7 +317,7 @@ If we would like to process all `access.log.*.gz` we can do one of the following
 
     # zcat access.log.*.gz | goaccess
 
-Note: On Mac OS X, use `gunzip -c` instead of `zcat`.
+Note: On Mac OS X, use `gzcat` instead of `zcat`.
 
 ##### Real Time HTML Output #####
 
